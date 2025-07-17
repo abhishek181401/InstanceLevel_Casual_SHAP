@@ -1,6 +1,22 @@
 # InstanceLevel_Casual_SHAP
 
 ![Project Architecture](images/project_architecture.png)
+ Problem Addressed
+Standard explanation methods (e.g., SHAP) reveal feature importance but conflate correlation with causation. This leads to:
+
+Misguided interventions (e.g., "Work longer hours!" instead of "Get a degree")
+
+Failure to identify root causes
+
+
+Our Solution
+CausalSHAP integrates local explainability (SHAP) with causal discovery (NOTEARS) to:
+
+Identify root causes behind predictions
+
+Demote mediator features (e.g., occupation between education and income)
+
+Personalize explanations via instance-specific causal graphs
 
 PHASES:
 
